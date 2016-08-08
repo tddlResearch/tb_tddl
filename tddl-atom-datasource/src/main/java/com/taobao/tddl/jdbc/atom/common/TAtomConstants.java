@@ -121,5 +121,4 @@ public class TAtomConstants {
 	 */
 	public static String getDbNameStr(String appName, String dbkey) {
 		return DB_NAME_FORMAT.format(new Object[] { appName, dbkey });
-	}		/**	 * 	 * @param args	 */	public static void main(String[] args) {		System.out.println("dbNameStr=" + getDbNameStr("za_badasset_dev", "credit_badasset_00_dev"));		System.out.println("globalDataId=" + getGlobalDataId("credit_badasset_00_dev"));		System.out.println("appDataId=" + TAtomConstants.getAppDataId("za_badasset_dev", "credit_badasset_00_dev"));		System.out.println("appDataId=" + TAtomConstants.getAppDataId("za_badasset_dev", "credit_badasset_00_dev"));		}
-}
+	}}
